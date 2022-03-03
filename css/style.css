@@ -1,0 +1,30 @@
+h1{
+    color: black;
+    background-color: cyan;
+    text-align: center;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  table, td, th{
+    border: 1px solid #888;
+    border-collapse: collapse;
+  }
+  .ok{
+      text-align: center;
+  }
+  .cc{
+      width: 300px;
+      height: 150px;
+  }
+  main{
+      padding-left: 20%;
+      padding-right: 20%;
+      
+  }
+  footer{
+      text-align: center;
+      
+  }
