@@ -39,3 +39,10 @@ table {
       height: 100px;
       width: 200px;
   }
+  h2{
+      background-color: deepskyblue;
+      text-align: center;
+  }
+  h3{
+      text-align: center;
+  }
