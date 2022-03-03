@@ -43,10 +43,10 @@
             Veškerá data jsou mezi síťovými rozhraními přenášena v podobě IP datagramů.</p>
         <h3>Seznam významných termínů a zkratek</h3>
         <dl>
-            <dt> <strong>HTML</strong> </dt>
+            <dt> <strong><abbr title="Hypertext Markup Language">HTML</abbr></strong> </dt>
             <dd>název značkovacího jazyka používaného pro tvorbu webových stránek, které jsou propojeny hypertextovými
                 odkazy.</dd>
-            <dt> <strong>HTTP</strong> </dt>
+            <dt> <strong> <abbr title="Hypertext Transfer Protocol">HTTP</abbr> </strong> </dt>
             <dd>internetový protokol určený pro komunikaci s WWW servery. Slouží pro přenos hypertextových dokumentů ve
                 formátu HTML, XML, i jiných typů souborů.</dd>
             <dt> <strong>Validátor</strong> </dt>
@@ -58,43 +58,50 @@
         </dl>
         <h2 id="s2">Tabulka</h2>
         <table>
-            <tr>
-                <th rowspan="2">Nečíslovaný seznam</th>
-                <th colspan="2" style="width: 40%">Prvky stránky</th>
-                <th rowspan="2">Obrázky</th>
-            </tr>
-            <tr>
-                <th style="width: 20%;">Značky</th>
-                <th style="width: 20%;">Entity</th>
-            </tr>
+            <thead>
+                <tr>
+                    <th rowspan="2">Nečíslovaný seznam</th>
+                    <th colspan="2">Prvky stránky</th>
+                    <th rowspan="2">Obrázky</th>
+                </tr>
+                <tr>
+                    <th>Značky</th>
+                    <th>Entity</th>
+                </tr>
+            </thead>
 
 
-            <tr>
-                <td style="width: 70%;" rowspan="2" class="ok">
-                    <ul>
-                        <li>Ip adresa</li>
-                        <li>Jmenná adresa</li>
-                        <li>URL</li>
-                    </ul>
-
-                </td>
-                <td class="ok">H₂O</td>
-                <td class="ok">&</td>
-                <td rowspan="2" style="width: 70%"><img class="cc" src="img/4565982.jpg" alt="Lamborghini"></td>
-            </tr>
-            <tr>
-                <td class="ok">c2 = a2 + b2</td>
-                <td class="ok">@</td>
-
-
-            </tr>
+            <tbody>
+                <tr>
+                    <td rowspan="2" class="ok gll">
+                        <ul>
+                            <li>Ip adresa</li>
+                            <li>Jmenná adresa</li>
+                            <li>URL</li>
+                        </ul>
+                    </td>
+                    <td class="ok">H₂O</td>
+                    <td class="ok">&</td>
+                    <td rowspan="2"><img class="cc" src="img/4565982.jpg" alt="Lamborghini"></td>
+                </tr>
+                <tr>
+                    <td class="ok">c = a&sup2; + b&sup2;</td>
+                    <td class="ok">@</td>
 
 
-            <tr>
-                <td class="ok">Odkaz</td>
-                <td colspan="3" class="ok"> <a href="https://www.w3schools.com/">w3schools.com</a> </td>
+                </tr>
 
-            </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td class="ok">Odkaz</td>
+                    <td colspan="3" class="ok"> <a href="https://www.w3schools.com/">w3schools.com</a> </td>
+
+                </tr>
+            </tfoot>
+
+
+
 
         </table>
 
@@ -102,7 +109,7 @@
     </main>
     <footer>
         <hr>
-        &copy;Matěj Zimmer, IT1
+        &copy; <mark>Matěj Zimmer</mark> , <strong>IT1</strong>, SŠPU Opava
     </footer>
 </body>
 
